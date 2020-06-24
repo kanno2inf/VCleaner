@@ -1,7 +1,7 @@
-# VReducer
+# VCleaner
 [![MIT](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/kanno2inf/VCleaner/blob/master/LICENSE)
 
-VRMファイルに含まれる不要データを削除するスクリプト
+VRMファイルに含まれる不要テクスチャを削除するスクリプト
 
 ## 動作環境
 * python 3.8.x
