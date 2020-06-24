@@ -11,9 +11,3 @@ def print_stat(gltf):
     print('materials:', len(list(gltf['materials'])))
     print('textures:', len(list(gltf['textures'])))
     print('images:', len(list(gltf['images'])))
-
-    meshes = gltf['meshes']
-    print('meshes:', len(meshes))
-    print('primitives:', sum([len(m['primitives']) for m in meshes]))
-    for mesh in meshes:
-        print('\t', mesh['name'], ':', len(mesh['primitives']))
